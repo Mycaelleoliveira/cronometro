@@ -1,0 +1,43 @@
+#total {
+  width: 960px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#cronometro {
+  font-size: 80px;
+  color: tomato;
+  font-weight: bold;
+  text-shadow: 3px 3px 0 #000;
+  width: 100%;
+  text-align: center;
+}
+
+#iniciar {
+  margin-right: 20px;
+}
+
+#iniciar,
+#resetar {
+  background: black;
+  color: white;
+  border: dashed 7px white;
+  width: 175px;
+  height: 60px;
+  font-size: 24px;
+  animation: borda 1.5s infinite;
+}
+
+@keyframes borda {
+  from {
+    border-radius: 1px;
+  }
+
+  to {
+    border-radius: 30px;
+  }
+}
